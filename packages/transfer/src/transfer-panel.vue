@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'element-ui/packages/checkbox-group';
-  import ElCheckbox from 'element-ui/packages/checkbox';
-  import ElInput from 'element-ui/packages/input';
-  import Locale from 'element-ui/src/mixins/locale';
+  import ElCheckboxGroup from 'theardent-ui/packages/checkbox-group';
+  import ElCheckbox from 'theardent-ui/packages/checkbox';
+  import ElInput from 'theardent-ui/packages/input';
+  import Locale from 'theardent-ui/src/mixins/locale';
 
   export default {
     mixins: [Locale],

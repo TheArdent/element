@@ -77,13 +77,13 @@
 
 <script>
 import Vue from 'vue';
-import Clickoutside from 'element-ui/src/utils/clickoutside';
+import Clickoutside from 'theardent-ui/src/utils/clickoutside';
 import { formatDate, parseDate, isDateObject, getWeekNumber } from './util';
-import Popper from 'element-ui/src/utils/vue-popper';
-import Emitter from 'element-ui/src/mixins/emitter';
-import Focus from 'element-ui/src/mixins/focus';
-import ElInput from 'element-ui/packages/input';
-import merge from 'element-ui/src/utils/merge';
+import Popper from 'theardent-ui/src/utils/vue-popper';
+import Emitter from 'theardent-ui/src/mixins/emitter';
+import Focus from 'theardent-ui/src/mixins/focus';
+import ElInput from 'theardent-ui/packages/input';
+import merge from 'theardent-ui/src/utils/merge';
 
 const NewPopper = {
   props: {
