@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import loadingVue from './loading.vue';
-import { addClass, removeClass, getStyle } from 'element-ui/src/utils/dom';
-import merge from 'element-ui/src/utils/merge';
+import { addClass, removeClass, getStyle } from 'theardent-ui/src/utils/dom';
+import merge from 'theardent-ui/src/utils/merge';
 
 const LoadingConstructor = Vue.extend(loadingVue);
 

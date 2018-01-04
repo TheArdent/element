@@ -87,10 +87,10 @@
   </div>
 </template>
 <script>
-  import emitter from 'element-ui/src/mixins/emitter';
-  import Migrating from 'element-ui/src/mixins/migrating';
+  import emitter from 'theardent-ui/src/mixins/emitter';
+  import Migrating from 'theardent-ui/src/mixins/migrating';
   import calcTextareaHeight from './calcTextareaHeight';
-  import merge from 'element-ui/src/utils/merge';
+  import merge from 'theardent-ui/src/utils/merge';
 
   export default {
     name: 'ElInput',

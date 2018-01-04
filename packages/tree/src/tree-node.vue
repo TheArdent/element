@@ -60,9 +60,9 @@
 </template>
 
 <script type="text/jsx">
-  import ElCollapseTransition from 'element-ui/src/transitions/collapse-transition';
-  import ElCheckbox from 'element-ui/packages/checkbox';
-  import emitter from 'element-ui/src/mixins/emitter';
+  import ElCollapseTransition from 'theardent-ui/src/transitions/collapse-transition';
+  import ElCheckbox from 'theardent-ui/packages/checkbox';
+  import emitter from 'theardent-ui/src/mixins/emitter';
 
   export default {
     name: 'ElTreeNode',
