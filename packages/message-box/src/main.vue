@@ -77,13 +77,13 @@
 </template>
 
 <script type="text/babel">
-  import Popup from 'element-ui/src/utils/popup';
-  import Locale from 'element-ui/src/mixins/locale';
-  import ElInput from 'element-ui/packages/input';
-  import ElButton from 'element-ui/packages/button';
-  import { addClass, removeClass } from 'element-ui/src/utils/dom';
-  import { t } from 'element-ui/src/locale';
-  import Dialog from 'element-ui/src/utils/aria-dialog';
+  import Popup from 'theardent-ui/src/utils/popup';
+  import Locale from 'theardent-ui/src/mixins/locale';
+  import ElInput from 'theardent-ui/packages/input';
+  import ElButton from 'theardent-ui/packages/button';
+  import { addClass, removeClass } from 'theardent-ui/src/utils/dom';
+  import { t } from 'theardent-ui/src/locale';
+  import Dialog from 'theardent-ui/src/utils/aria-dialog';
 
   let messageBox;
   let typeMap = {

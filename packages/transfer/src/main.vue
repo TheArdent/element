@@ -40,11 +40,11 @@
 </template>
 
 <script>
-  import ElButton from 'element-ui/packages/button';
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import Locale from 'element-ui/src/mixins/locale';
+  import ElButton from 'theardent-ui/packages/button';
+  import Emitter from 'theardent-ui/src/mixins/emitter';
+  import Locale from 'theardent-ui/src/mixins/locale';
   import TransferPanel from './transfer-panel.vue';
-  import Migrating from 'element-ui/src/mixins/migrating';
+  import Migrating from 'theardent-ui/src/mixins/migrating';
 
   export default {
     name: 'ElTransfer',

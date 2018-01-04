@@ -23,7 +23,7 @@
 </template>
 
 <script>
-  import ElTooltip from 'element-ui/packages/tooltip';
+  import ElTooltip from 'theardent-ui/packages/tooltip';
 
   export default {
     name: 'ElSliderButton',
