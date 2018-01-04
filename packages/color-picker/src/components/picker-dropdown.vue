@@ -40,10 +40,10 @@
   import SvPanel from './sv-panel';
   import HueSlider from './hue-slider';
   import AlphaSlider from './alpha-slider';
-  import Popper from 'element-ui/src/utils/vue-popper';
-  import Locale from 'element-ui/src/mixins/locale';
-  import ElInput from 'element-ui/packages/input';
-  import ElButton from 'element-ui/packages/button';
+  import Popper from 'theardent-ui/src/utils/vue-popper';
+  import Locale from 'theardent-ui/src/mixins/locale';
+  import ElInput from 'theardent-ui/packages/input';
+  import ElButton from 'theardent-ui/packages/button';
 
   export default {
     name: 'el-color-picker-dropdown',

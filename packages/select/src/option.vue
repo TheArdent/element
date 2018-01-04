@@ -16,8 +16,8 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import { getValueByPath } from 'element-ui/src/utils/util';
+  import Emitter from 'theardent-ui/src/mixins/emitter';
+  import { getValueByPath } from 'theardent-ui/src/utils/util';
 
   export default {
     mixins: [Emitter],

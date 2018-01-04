@@ -96,8 +96,8 @@
 
 <script type="text/babel">
   import { getRangeHours, modifyTime } from '../util';
-  import ElScrollbar from 'element-ui/packages/scrollbar';
-  import RepeatClick from 'element-ui/src/directives/repeat-click';
+  import ElScrollbar from 'theardent-ui/packages/scrollbar';
+  import RepeatClick from 'theardent-ui/src/directives/repeat-click';
 
   export default {
     components: { ElScrollbar },
