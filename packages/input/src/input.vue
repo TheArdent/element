@@ -192,7 +192,7 @@
         return this.$slots.prepend || this.$slots.append;
       },
       showClear() {
-        return this.clearable && this.currentValue !== '';
+        return this.clearable && this.currentValue !== '' && (this.focused || this.hovering);
       }
     },
 
