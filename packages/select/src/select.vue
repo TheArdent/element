@@ -72,6 +72,7 @@
       :placeholder="currentPlaceholder"
       :name="name"
       :id="id"
+      :clearable="clearable"
       :size="selectSize"
       :disabled="disabled"
       :readonly="!filterable || multiple"
@@ -354,6 +355,9 @@
             this.handleQueryChange(this.query);
             if (this.multiple) {
               this.$refs.input.focus();
+                this.broadcast('ElInput', 'inputSelect');
+                this.broadcast('ElOption', 'queryChange', '');
+                this.broadcast('ElOptionGroup', 'queryChange');
             } else {
               if (!this.remote) {
                 this.broadcast('ElOption', 'queryChange', '');
