@@ -173,7 +173,7 @@
         let criteria = this.clearable &&
           !this.disabled &&
           this.inputHovering &&
-          !this.multiple &&
+          this.multiple &&
           this.value !== undefined &&
           this.value !== '';
         return criteria ? 'circle-close is-show-close' : (this.remote && this.filterable ? '' : 'arrow-up');
@@ -659,6 +659,13 @@
 
       deleteSelected(event) {
         event.stopPropagation();
+        if (this.multiple) {
+          this.$emit('input', []);
+          this.emitChange([]);
+        } else {
+          this.$emit('input', '');
+          this.emitChange('');
+        }
         this.$emit('input', '');
         this.emitChange('');
         this.visible = false;
