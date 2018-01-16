@@ -16,7 +16,7 @@
 > npm i -g vue-cli
 > mkdir my-project && cd my-project
 > vue init webpack
-> npm i && npm i element-ui
+> npm i && npm i theardent-ui
 ```
 
 ### 引入 Element
@@ -28,8 +28,8 @@
 在 main.js 中写入以下内容：
 ```javascript
 import Vue from 'vue'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+import ElementUI from 'theardent-ui'
+import 'theardent-ui/lib/theme-chalk/index.css'
 import App from './App.vue'
 
 Vue.use(ElementUI)
@@ -59,7 +59,7 @@ npm install babel-plugin-component -D
   ],
   "plugins": [["component", [
     {
-      "libraryName": "element-ui",
+      "libraryName": "theardent-ui",
       "styleLibraryName": "theme-chalk"
     }
   ]]]
@@ -70,7 +70,7 @@ npm install babel-plugin-component -D
 
 ```javascript
 import Vue from 'vue'
-import { Button, Select } from 'element-ui'
+import { Button, Select } from 'theardent-ui'
 import App from './App.vue'
 
 Vue.component(Button.name, Button)
@@ -158,7 +158,7 @@ import {
   MessageBox,
   Message,
   Notification
-} from 'element-ui'
+} from 'theardent-ui'
 
 Vue.use(Pagination)
 Vue.use(Dialog)
@@ -240,14 +240,14 @@ Vue.prototype.$message = Message
 完整引入 Element：
 ```JS
 import Vue from 'vue'
-import Element from 'element-ui'
+import Element from 'theardent-ui'
 Vue.use(Element, { size: 'small' })
 ```
 
 按需引入 Element：
 ```JS
 import Vue from 'vue'
-import { Button } from 'element-ui'
+import { Button } from 'theardent-ui'
 
 Vue.prototype.$ELEMENT = { size: 'small' }
 Vue.use(Button)

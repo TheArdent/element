@@ -1,8 +1,8 @@
-import Popper from 'element-ui/src/utils/vue-popper';
+import Popper from 'theardent-ui/src/utils/vue-popper';
 import debounce from 'throttle-debounce/debounce';
-import { addClass, removeClass } from 'element-ui/src/utils/dom';
-import { getFirstComponentChild } from 'element-ui/src/utils/vdom';
-import { generateId } from 'element-ui/src/utils/util';
+import { addClass, removeClass } from 'theardent-ui/src/utils/dom';
+import { getFirstComponentChild } from 'theardent-ui/src/utils/vdom';
+import { generateId } from 'theardent-ui/src/utils/util';
 import Vue from 'vue';
 
 export default {

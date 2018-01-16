@@ -1,7 +1,7 @@
 import { getCell, getColumnByCell, getRowIdentity } from './util';
-import { hasClass, addClass, removeClass } from 'element-ui/src/utils/dom';
-import ElCheckbox from 'element-ui/packages/checkbox';
-import ElTooltip from 'element-ui/packages/tooltip';
+import { hasClass, addClass, removeClass } from 'theardent-ui/src/utils/dom';
+import ElCheckbox from 'theardent-ui/packages/checkbox';
+import ElTooltip from 'theardent-ui/packages/tooltip';
 import debounce from 'throttle-debounce/debounce';
 
 export default {
@@ -116,7 +116,7 @@ export default {
                   !this.fixed && this.layout.scrollY && this.layout.gutterWidth ? <td class="gutter" /> : ''
                 }
               </tr>,
-              this.store.states.expandRows.indexOf(row) > -1
+                this.store.states.expandRows.indexOf(row) > -1
                 ? (<tr>
                   <td colspan={ this.columns.length } class="el-table__expanded-cell">
                     { this.table.renderExpanded ? this.table.renderExpanded(h, { row, $index, store: this.store }) : ''}

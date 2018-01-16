@@ -99,7 +99,7 @@
         value6: '',
         value7: '',
         value8: '',
-        value9: [],
+        value9: ['Alaska', 'Alabama'],
         value10: [],
         value11: [],
         loading: false,
@@ -113,15 +113,16 @@
 
     methods: {
       remoteMethod(query) {
-        if (query !== '') {
+        console.log("Some log");
+        // if (query !== '') {
           this.loading = true;
           setTimeout(() => {
             this.loading = false;
             this.options4 = this.list.filter(item => item.label.toLowerCase().indexOf(query.toLowerCase()) > -1);
           }, 200);
-        } else {
-          this.options4 = [];
-        }
+        // } else {
+        // this.options4 = [];
+        // }
       }
     }
   };
@@ -563,7 +564,7 @@ Enter keywords and search data from server.
   export default {
     data() {
       return {
-        options4: [],
+        options4: ['Alabama', 'Alaska'],
         value9: [],
         list: [],
         loading: false,

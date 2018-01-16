@@ -4,17 +4,17 @@
 Instalar mediante npm es la forma recomendada ya que se integra facilmente con [webpack](https://webpack.js.org/).
 
 ```shell
-npm i element-ui -S
+npm i theardent-ui -S
 ```
 
 ### CDN 
-Obtenga la última versión desde [unpkg.com/element-ui](https://unpkg.com/element-ui/) , e importe el JavaScript y los archivos CSS en su página.
+Obtenga la última versión desde [unpkg.com/theardent-ui](https://unpkg.com/theardent-ui/) , e importe el JavaScript y los archivos CSS en su página.
 
 ```html
 <!-- import CSS -->
-<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<link rel="stylesheet" href="https://unpkg.com/theardent-ui/lib/theme-chalk/index.css">
 <!-- import JavaScript -->
-<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://unpkg.com/theardent-ui/lib/index.js"></script>
 ```
 
 ##Tip
@@ -30,7 +30,7 @@ Si esta usando un CDN, una página con Hello-World es fácil con Element. [Onlin
 <head>
   <meta charset="UTF-8">
   <!-- import CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <link rel="stylesheet" href="https://unpkg.com/theardent-ui/lib/theme-chalk/index.css">
 </head>
 <body>
   <div id="app">
@@ -43,7 +43,7 @@ Si esta usando un CDN, una página con Hello-World es fácil con Element. [Onlin
   <!-- import Vue before Element -->
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <!-- import JavaScript -->
-  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  <script src="https://unpkg.com/theardent-ui/lib/index.js"></script>
   <script>
     new Vue({
       el: '#app',
