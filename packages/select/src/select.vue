@@ -666,8 +666,6 @@
           this.$emit('input', '');
           this.emitChange('');
         }
-        this.$emit('input', '');
-        this.emitChange('');
         this.visible = false;
         this.$emit('clear');
       },
