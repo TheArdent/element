@@ -387,7 +387,7 @@
 
     methods: {
       handleQueryChange(val) {
-        if (this.previousQuery === val) return;
+        // if (this.previousQuery === val) return;
         this.previousQuery = val;
         this.$nextTick(() => {
           if (this.visible) this.broadcast('ElSelectDropdown', 'updatePopper');
