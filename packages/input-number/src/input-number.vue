@@ -53,7 +53,6 @@
 </template>
 <script>
   import ElInput from 'theardent-ui/packages/input';
-  import debounce from 'throttle-debounce/debounce';
   import Focus from 'theardent-ui/src/mixins/focus';
   import RepeatClick from 'theardent-ui/src/directives/repeat-click';
 
