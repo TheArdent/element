@@ -279,7 +279,7 @@
         cachedPlaceHolder: '',
         optionsCount: 0,
         filteredOptionsCount: 0,
-        visible: true,
+        visible: false,
         selectedLabel: '',
         hoverIndex: -1,
         query: '',
