@@ -173,7 +173,6 @@
         let criteria = this.clearable &&
           !this.disabled &&
           this.inputHovering &&
-          this.multiple &&
           this.value !== undefined &&
           this.value !== '';
         return criteria ? 'circle-close is-show-close' : (this.remote && this.filterable ? '' : 'arrow-up');
