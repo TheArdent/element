@@ -401,7 +401,7 @@ Element ha añadido un método global `$notify` para Vue.prototype. Así que en 
 Importar `Notification`:
 
 ```javascript
-import { Notification } from 'element-ui';
+import { Notification } from 'theardent-ui';
 ```
 
 En este caso, debe llamar a `Notification(options)`. También se han registrado métodos para diferentes tipos, e.j. `Notification.success(options)`.
