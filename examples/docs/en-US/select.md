@@ -113,15 +113,16 @@
 
     methods: {
       remoteMethod(query) {
-        if (query !== '') {
+        console.log("Some log");
+        // if (query !== '') {
           this.loading = true;
           setTimeout(() => {
             this.loading = false;
             this.options4 = this.list.filter(item => item.label.toLowerCase().indexOf(query.toLowerCase()) > -1);
           }, 200);
-        } else {
-          this.options4 = [];
-        }
+        // } else {
+        // this.options4 = [];
+        // }
       }
     }
   };
