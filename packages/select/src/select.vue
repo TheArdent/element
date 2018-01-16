@@ -233,7 +233,10 @@
       },
       size: String,
       disabled: Boolean,
-      clearable: Boolean,
+      clearable: {
+        type: Boolean,
+        default: true
+      },
       filterable: Boolean,
       allowCreate: Boolean,
       loading: Boolean,
@@ -276,7 +279,7 @@
         cachedPlaceHolder: '',
         optionsCount: 0,
         filteredOptionsCount: 0,
-        visible: false,
+        visible: true,
         selectedLabel: '',
         hoverIndex: -1,
         query: '',
@@ -363,6 +366,7 @@
             }
           }
         }
+
         this.$emit('visible-change', val);
       },
 

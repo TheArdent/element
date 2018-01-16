@@ -99,7 +99,7 @@
         value6: '',
         value7: '',
         value8: '',
-        value9: [],
+        value9: ['Alaska', 'Alabama'],
         value10: [],
         value11: [],
         loading: false,
@@ -563,7 +563,7 @@ Enter keywords and search data from server.
   export default {
     data() {
       return {
-        options4: [],
+        options4: ['Alabama', 'Alaska'],
         value9: [],
         list: [],
         loading: false,
