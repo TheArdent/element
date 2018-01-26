@@ -1,6 +1,6 @@
 {
   "name": "theardent-ui",
-  "version": "2.1.10000016",
+  "version": "2.1.10000053",
   "description": "A Component Library for Vue.js.",
   "main": "lib/theardent-ui.common.js",
   "files": [
